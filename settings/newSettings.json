@@ -1,0 +1,278 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true,
+    "suppressImproperWorkspaceCasingWarning": true
+  },
+  "editor.renderWhitespace": "none",
+  "editor.suggestSelection": "first",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "vikings-icon-theme.activeIconPack": "react",
+  "vikings-icon-theme.folders.color": "#42a5f5",
+  "vikings-icon-theme.hidesExplorerArrows": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "vsintellicode.modelDownloadPath": "",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  // "editor.fontFamily": "'MesloLGS NF', 'Consolas', 'Courier New', monospace",
+  // "editor.fontFamily": "'Cascadia Code','Cascadia Code PL ExtraBold', 'Cascadia Code PL', 'Courier New', monospace",
+  // "editor.fontFamily": "'Dank Mono', 'monospace', monospace",
+  // "editor.fontFamily": "'IBM Plex Mono', 'monospace', monospace",
+  // "editor.fontFamily": "'Victor Mono', 'monospace', monospace",
+  //fira code iscript
+  "editor.fontFamily": "'Dank Mono','Cascadia Code'",
+  "markdown.preview.fontFamily": "Dank Mono",
+  "settingsSync.ignoredSettings": ["editor.codeLensFontFamily"],
+  "terminal.integrated.fontFamily": "'Dank Mono', monospace",
+  "editor.codeLensFontFamily": "'Dank Mono',monospace",
+  "git.confirmSync": false,
+  "editor.fontLigatures": true,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.mouseWheelZoom": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.defaultProfile.windows": "bash",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.external.windowsExec": "C:\\\\Windows\\\\System32\\\\bash.exe",
+  // "terminal.integrated.automationShell.windows": "bash",
+  // StatusBar color:
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000",
+    "activityBar.border": "#7900FF",
+    // "sideBar.background": "#000",
+    "sideBar.border": "#7900FF",
+    // "sideBarSectionHeader.background": "#7900FF",
+    // "sideBarTitle.foreground": "#000",
+    "tab.border": "#7900FF",
+    "tab.activeBorder": "#0df",
+    "tab.activeBackground": "#00ddff3a",
+    "scrollbarSlider.background": "#7900FF",
+    "scrollbar.shadow": "#0df",
+    "statusBar.background": "#000",
+    "terminal.background": "#000"
+    // "editor.background": "#000"
+  },
+  "bracketLens.mode": "auto",
+  "bracketLens.languageConfiguration": {
+    "ignoreCase": true,
+    "comments": {
+      "block": [
+        {
+          "opening": "/*",
+          "closing": "*/"
+        }
+      ],
+      "line": ["//"]
+    },
+    "brackets": {
+      "symbol": [
+        {
+          "opening": "(",
+          "closing": ")",
+          "headerMode": "smart",
+          "inters": []
+        },
+        {
+          "opening": "[",
+          "closing": "]",
+          "headerMode": "smart",
+          "inters": []
+        },
+        {
+          "opening": "{",
+          "closing": "}",
+          "headerMode": "smart",
+          "inters": []
+        }
+      ],
+      "word": []
+    },
+    "strings": {
+      "inline": [
+        {
+          "opening": "\"",
+          "closing": "\"",
+          "escape": ["\\\\", "\\\""]
+        },
+        {
+          "opening": "'",
+          "closing": "'",
+          "escape": ["\\\\", "\\'"]
+        }
+      ],
+      "multiline": [
+        {
+          "opening": "`",
+          "closing": "`",
+          "escape": ["\\\\", "\\`"]
+        }
+      ]
+    },
+    "terminators": [";", ","],
+    "ignoreSymbols": ["\\//"]
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true,
+    "cpp": true,
+    "javascript": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "javascriptreact": true,
+    "go": true,
+    "Log": false
+  },
+  // "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.advanced": {},
+  "eslint.alwaysShowStatus": true,
+  "thunder-client.codeSnippetLanguage": "powershell",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": true,
+  // agregar punto y coma
+  "prettier.semi": true,
+  // agregar los parentesis en una arrow function cuando se escribe un solo parametro
+  "prettier.arrowParens": "always",
+  "editor.guides.bracketPairs": true,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.type",
+          "keyword",
+          "constant",
+          "storage.modifier",
+          "emphasis",
+          "invalid",
+          "markup",
+          "entity.other.attribute-name",
+          "entity.name.method",
+          "support.constant.property-value",
+          "support.type",
+          "enitry.parameter.function",
+          "entity.name.tag",
+          "entity.name.section",
+          "meta.import.js",
+          "meta.function-call.arguments",
+          "entity.name.function",
+          "entity",
+          "variable.other.property.js",
+          "support.variable.property.js"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["comment", "storage.type"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "entity.parameter.method",
+          "support.function",
+          "entity.other.attribute-name",
+          "meta,function",
+          "constant",
+          "export",
+          "enum",
+          // "storage.type",
+          "entity.other.inherited-class",
+          "enity.parameter.function",
+          "entity.parameter.method",
+          "entity.name.method",
+          "meta.function.parameters",
+          "entity.name.class",
+          "entity.name.function.parameter",
+          "support.constant",
+          "entity.name.type",
+          "variable.parameter.js",
+          "entity.name.tag.css"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.linkedEditing": true,
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.renderLineHighlight": "gutter",
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "vscode_custom_css.imports": [""],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.run": "onSave",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "editor.formatOnSave": true,
+  "vikings-icon-theme.folders.theme": "specific",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "glassit.alpha": 225,
+  "errorLens.fontWeight": "800",
+  // "errorLens.fontStyleItalic": true,
+  // "errorLens."
+  "errorLens.fontFamily": "IBM Plex Mono",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "window.zoomLevel": -2,
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": ["javascript"],
+  "editor.wordWrap": "on",
+  "errorLens.fontStyle": "normal",
+  "workbench.colorTheme": "Atom One Darker",
+  "editor.fontSize": 16.8,
+  "liquid.format": true
+}
